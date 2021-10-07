@@ -1,0 +1,169 @@
+@font-face {
+    font-family: 'FonteLogo1';
+    src: url("../_fonts/FrederickatheGreat-Regular.ttf");
+}
+@font-face {
+    font-family: 'FonteLogo';
+    src: url("../_fonts/MonteCarlo-Regular.ttf");
+}
+
+:root{
+    --cor0: #E6C4C3;
+    --cor1: #F0CCDC;
+    --cor2: #D8C2D7;
+    --cor3: #E7CCF0;
+    --cor4: #D4C3E6;
+
+    --fonte-padrao: arial, verdana, helvetica, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to left, var(--cor4), var(--cor3), var(--cor2), var(--cor1));
+}
+
+header#cabecalho{
+    border-bottom: solid 1px #606060;
+    height: 150px;
+}
+
+header#cabecalho h1{
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 40pt;
+    color: #606060;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
+    padding: 0px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+header#cabecalho h2{
+    font-family: 'FonteLogo1';
+    color: #888888;
+    font-size: 20pt;
+    padding: 0px;
+    margin-top: 0px;
+    margin-left: 50px;    
+}
+
+img#anis{
+    position: absolute;
+    left: 950px;
+    top: 70px;
+}
+
+nav#menu{
+    display: block;
+}
+
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    left: 400px;
+}
+
+nav#menu li{
+    font-size: 7.5pt;
+    display: inline-block;
+    background-color: #dddddd;
+    padding: 10px;
+    margin: 0px;
+    transition: background-color 1s;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+nav#menu li:hover{
+    background-color: #606060;
+}
+
+nav#menu h1{
+    display: none;
+}
+
+nav#menu a{
+    color: #000000;
+    text-decoration: none;
+}
+
+nav#menu a:hover{
+    color: #ffffff;
+}
+
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.41);
+    border-radius: 10px;
+}
+
+main p{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-family: var(--fonte-padrao);
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+main p a{
+    text-decoration: none
+}
+
+main h1{
+    font-family: 'FonteLogo1';
+    font-size: 2em;
+    text-align: center;
+    background-color: var(--cor3);
+    padding: 3px;
+    margin: auto;
+}
+
+main h2{
+    font-family: 'FonteLogo';
+    font-size: 2em;
+    background-image: linear-gradient(to right, var(--cor4), transparent);
+    text-indent: 8px;
+}
+
+main img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+aside{
+    background-color: var(--cor3);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+aside h3{
+    font-family: 'FonteLogo';
+    font-size: 1.5em;
+    background-color: var(--cor4);
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside ul{
+    list-style-type: '\1F449\00a0\00a0';
+    list-style-position: inside;
+    columns: 2;
+}
+
+footer{
+    clear: both;
+    border-top: 1px solid #606060;
+}
+
+footer p{
+    text-align: center;
+}

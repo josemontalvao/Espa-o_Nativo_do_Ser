@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'FonteLogo1';
+    src: url("../_fonts/FrederickatheGreat-Regular.ttf");
+}
+@font-face {
+    font-family: 'FonteLogo';
+    src: url("../_fonts/MonteCarlo-Regular.ttf");
+}
+
+:root{
+    --cor0: #E6C4C3;
+    --cor1: #F0CCDC;
+    --cor2: #D8C2D7;
+    --cor3: #E7CCF0;
+    --cor4: #D4C3E6;
+
+    --fonte-padrao: arial, verdana, helvetica, sans-serif;
+}
+
+header#cabecalho{
+    border-bottom: solid 1px #606060;
+    height: 150px;
+}
+
+header#cabecalho h1{
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 40pt;
+    color: #606060;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
+    padding: 0px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+header#cabecalho h2{
+    font-family: 'FonteLogo1';
+    color: #888888;
+    font-size: 20pt;
+    padding: 0px;
+    margin-top: 0px;
+    margin-left: 50px;    
+}
+
+img#anis{
+    position: absolute;
+    left: 950px;
+    top: 70px;
+}
+
+nav#menu{
+    display: block;
+}
+
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    left: 400px;
+}
+
+nav#menu li{
+    font-size: 7.5pt;
+    display: inline-block;
+    background-color: #dddddd;
+    padding: 10px;
+    margin: 0px;
+    transition: background-color 1s;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+nav#menu li:hover{
+    background-color: #606060;
+}
+
+nav#menu h1{
+    display: none;
+}
+
+nav#menu a{
+    color: #000000;
+    text-decoration: none;
+}
+
+nav#menu a:hover{
+    color: #ffffff;
+}

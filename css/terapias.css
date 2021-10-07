@@ -1,0 +1,261 @@
+@font-face {
+    font-family: 'FonteLogo1';
+    src: url("../_fonts/FrederickatheGreat-Regular.ttf");
+}
+@font-face {
+    font-family: 'FonteLogo';
+    src: url("../_fonts/MonteCarlo-Regular.ttf");
+}
+
+:root{
+    --cor0: #F2F285;
+    --cor1: #FCF18B;
+    --cor2: #E6D489;
+    --cor3: #FCDA8B;
+
+    --fonte-padrao: arial, verdana, helvetica, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to bottom, #F2F285, #FCF18B, #E6D489, #FCDA8B);
+}
+
+header#cabecalho{
+    border-bottom: solid 1px #606060;
+    height: 150px;
+}
+
+header#cabecalho h1{
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 40pt;
+    color: #606060;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
+    padding: 0px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+header#cabecalho h2{
+    font-family: 'FonteLogo1';
+    color: #888888;
+    font-size: 20pt;
+    padding: 0px;
+    margin-top: 0px;
+    margin-left: 50px;    
+}
+
+img#tera{
+    position: absolute;
+    left: 950px;
+    top: 70px;
+}
+
+nav#menu{
+    display: block;
+}
+
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    left: 400px;
+}
+
+nav#menu li{
+    font-size: 7.5pt;
+    display: inline-block;
+    background-color: #dddddd;
+    padding: 10px;
+    margin: 0px;
+    transition: background-color 1s;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+nav#menu li:hover{
+    background-color: #606060;
+}
+
+nav#menu h1{
+    display: none;
+}
+
+nav#menu a{
+    color: #000000;
+    text-decoration: none;
+}
+
+nav#menu a:hover{
+    color: #ffffff;
+}
+
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.41);
+    border-radius: 10px;
+}
+
+main p{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-family: var(--fonte-padrao);
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+article > h1{
+    font-family: 'FonteLogo1';
+    font-size: 2em;
+    text-align: center;
+    background-color: var(--cor3);
+    padding: 3px;
+    margin: auto;
+}
+
+article > h2{
+    font-family: 'FonteLogo';
+    font-size: 2em;
+    background-image: linear-gradient(to right, var(--cor3), transparent);
+    text-indent: 8px;
+}
+
+section#fotos h1{
+    font-family: 'FonteLogo1';
+    font-size: 2em;
+    text-align: center;
+    background-color: var(--cor3);
+    padding: 3px;
+    margin: auto;
+}
+
+ul#fotos{
+    width: 100%;
+    min-width: 300px;
+    max-width: 700px;
+    margin: auto;
+    align-items: center;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+
+ul#fotos li{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid white;
+    background-color: white;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .4);
+    -webkit-transition: all .4s ease-in;
+}
+
+ul#fotos li span{
+    opacity: 0;
+    color: white;
+    text-shadow: 0, 0, 0, black;
+    background-color: rgba(0, 0, 0, .3);
+    font: 9pt;
+    line-height: 370px;
+    padding: 5px;
+}
+
+ul#fotos > li > span > a{
+    color: white;
+}
+
+ul#fotos li:hover{
+    -webkit-transform: scale(1.5);
+}
+
+ul#fotos li:hover span{
+    opacity: 1;
+}
+
+ul#fotos li#aromaterapia{
+    background: url("../Imagens/aromaterapia.png") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+
+ul#fotos li#aromaterapia:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#fotos li#coneIndu{
+    background: url("../Imagens/cone_hindu.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+
+ul#fotos li#coneIndu:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#fotos li#constelacaoFamiliar{
+    background: url('../Imagens/constelacao_familiar.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+
+ul#fotos li#constelacaoFamiliar:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#fotos li#cromoterapia{
+    background: url('../Imagens/cromoterapia.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+
+ul#fotos li#cromoterapia:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#fotos li#ervas{
+    background: url('../Imagens/ervas.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+
+ul#fotos li#ervas:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#fotos li#radiestesia{
+    background: url('../Imagens/radiestesia.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+
+ul#fotos li#radiestesia:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+footer{
+    clear: both;
+    border-top: 1px solid #606060;
+}
+
+footer p{
+    text-align: center;
+}

@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'FonteLogo1';
+    src: url("../_fonts/FrederickatheGreat-Regular.ttf");
+}
+@font-face {
+    font-family: 'FonteLogo';
+    src: url("../_fonts/MonteCarlo-Regular.ttf");
+}
+:root{
+    --cor0: #0E80C7;
+    --cor1: #0451DE;
+    --cor2: #0758EB;
+    --cor3: #04C4DE;
+    --cor4: #07EB86;
+
+    --fonte-padrao: arial, verdana, helvetica, sans-serif;
+}
+
+header{
+    border-bottom: solid 1px #606060;
+    width: 100%;
+    min-width: 300px;
+    max-width: 2000px;
+    align-items: center;
+    height: 150px;
+}
+
+hgroup h1{
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 35pt;
+    color: #606060;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
+    padding: 0px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 140px;
+}    
+
+hgroup h2{
+    font-family: 'FonteLogo1';
+    color: #888888;
+    font-size: 20pt;
+    padding: 0px;
+    margin-top: -10px;
+    margin-left: 180px;
+}
+
+img#logo{
+    float: left;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+* p{
+    line-height: 1.5;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 100%;
+    min-width: 300px;
+    max-width: 2000px;
+    align-self: center;
+}
+
+main{
+    width: 100%;
+    min-width: 300px;
+    max-width: 2000px;
+}
+
+main h1{
+    font-family: 'FonteLogo';
+    color: white;
+    font-size: 3em;
+    text-align: center;
+}
+
+main p{
+    margin: 10px;
+    text-align: justify;
+    font-family: var(--fonte-padrao);
+    font-size: 1.1em;
+}
+
+img#jose{
+    max-width: 2000px;
+    min-width: 300px;
+    margin-top: -50px;
+    margin-left: 500px;
+}
+
+article#empresa{
+    margin-top: 20px;
+    background-color: var(--cor1);
+    padding: 10px;
+}
+
+section img{
+    display: block;
+    float: left;
+    margin-top: -20px;
+    margin-left: 170px;
+    margin-inline-end: 30px;
+    border-radius: 10px;
+}
+
+section h1{
+   color: var(--cor1);
+}
+
+section p{
+    margin-right: 230px;
+    margin-bottom: 50px;
+    text-align: justify;
+    font-family: var(--fonte-padrao);
+    font-size: 1.1em;
+}
+
+section#tratamento{
+    background-color: var(--cor1);
+    padding: 10px;
+}
+
+section#tratamento h1{
+    color: white;
+    font-size: 3em;
+    margin: auto;
+}
+
+section#tratamento p{
+    font-family: var(--fonte-padrao);
+    font-size: 1.1em;
+    text-align: justify;
+    margin: 10px;
+}
+
+footer{
+    clear: both;
+    border-top: 1px solid #606060;
+    margin-top: 50px;
+}
+
+footer p{
+    text-align: center;
+}
