@@ -4,7 +4,7 @@
 }
 @font-face {
     font-family: 'FonteLogo';
-    src: url("../_fonts/MonteCarlo-Regular.ttf");
+    src: url("../_fonts/CinzelDecorative-Regular.ttf");
 }
 
 :root{
@@ -28,7 +28,7 @@ header#cabecalho{
 
 header#cabecalho h1{
     font-family: 'FonteLogo', sans-serif;
-    font-size: 40pt;
+    font-size: 35pt;
     color: #606060;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
     padding: 0px;
@@ -41,8 +41,8 @@ header#cabecalho h2{
     color: #888888;
     font-size: 20pt;
     padding: 0px;
-    margin-top: 0px;
-    margin-left: 50px;    
+    margin-top: -10px;
+    margin-left: 40px;
 }
 
 img#anis{
