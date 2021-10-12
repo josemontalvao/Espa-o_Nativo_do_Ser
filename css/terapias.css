@@ -8,7 +8,7 @@
 }
 
 :root{
-    --cor0: #F2F285;
+    --cor0: #186612;
     --cor1: #FCF18B;
     --cor2: #E6D489;
     --cor3: #FCDA8B;
@@ -28,7 +28,7 @@ header#cabecalho{
 header#cabecalho h1{
     font-family: 'FonteLogo', sans-serif;
     font-size: 35pt;
-    color: #606060;
+    color: var(--cor0);
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
     padding: 0px;
     margin-top: 50px;
