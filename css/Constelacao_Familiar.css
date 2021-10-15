@@ -4,15 +4,15 @@
 }
 @font-face {
     font-family: 'FonteLogo';
-    src: url("../_fonts/MonteCarlo-Regular.ttf");
+    src: url("../_fonts/CinzelDecorative-Regular.ttf");
 }
 
 :root{
-    --cor0: #E6C4C3;
-    --cor1: #F0CCDC;
-    --cor2: #D8C2D7;
-    --cor3: #E7CCF0;
-    --cor4: #D4C3E6;
+    --cor0: #186612;
+    --cor1: #FCF412;
+    --cor2: #E0C510;
+    --cor3: #F7C51E;
+    --cor4: #E09B10;
 
     --fonte-padrao: arial, verdana, helvetica, sans-serif;
 }
@@ -24,8 +24,8 @@ header#cabecalho{
 
 header#cabecalho h1{
     font-family: 'FonteLogo', sans-serif;
-    font-size: 40pt;
-    color: #606060;
+    font-size: 25pt;
+    color: var(--cor0);
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
     padding: 0px;
     margin-top: 50px;
@@ -37,14 +37,20 @@ header#cabecalho h2{
     color: #888888;
     font-size: 20pt;
     padding: 0px;
-    margin-top: 0px;
-    margin-left: 50px;    
+    margin-top: 2px;
+    margin-left: 120px;    
 }
 
-img#anis{
+img#logo{
+    float: left;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+img#bonecos{
     position: absolute;
     left: 950px;
-    top: 70px;
+    top: 100px;
 }
 
 nav#menu{
@@ -87,5 +93,64 @@ nav#menu a:hover{
 }
 
 body{
-    
+    background-color: var(--cor1);
+}
+
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.41);
+    border-radius: 10px;
+}
+
+main p{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-family: var(--fonte-padrao);
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+article > h1{
+    font-family: 'FonteLogo1';
+    font-size: 35pt;
+    text-align: center;
+    background-color: var(--cor3);
+    padding: 3px;
+    margin: auto;
+}
+
+article > h2{
+    font-family: 'FonteLogo';
+    font-size: 20pt;
+    background-image: linear-gradient(to right, var(--cor3), transparent);
+    text-indent: 8px;
+}
+
+ol{
+    font-family: var(--fonte-padrao);
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+img{
+    border-radius: 10px;
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+footer{
+    clear: both;
+    border-top: 1px solid #606060;
+}
+
+footer p{
+    text-align: center;
 }

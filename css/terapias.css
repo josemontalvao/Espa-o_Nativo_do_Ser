@@ -27,7 +27,7 @@ header#cabecalho{
 
 header#cabecalho h1{
     font-family: 'FonteLogo', sans-serif;
-    font-size: 35pt;
+    font-size: 25pt;
     color: var(--cor0);
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
     padding: 0px;
@@ -40,8 +40,14 @@ header#cabecalho h2{
     color: #888888;
     font-size: 20pt;
     padding: 0px;
-    margin-top: -10px;
-    margin-left: 40px;    
+    margin-top: 2px;
+    margin-left: 120px;    
+}
+
+img#logo{
+    float: left;
+    margin-top: 5px;
+    margin-left: 30px;
 }
 
 img#tera{

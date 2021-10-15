@@ -13,6 +13,7 @@
     --cor2: #E0C510;
     --cor3: #F7C51E;
     --cor4: #E09B10;
+    --cor5: #E6D489;
 
     --fonte-padrao: arial, verdana, helvetica, sans-serif;
 }
@@ -24,7 +25,7 @@ header#cabecalho{
 
 header#cabecalho h1{
     font-family: 'FonteLogo', sans-serif;
-    font-size: 35pt;
+    font-size: 25pt;
     color: var(--cor0);
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
     padding: 0px;
@@ -37,8 +38,14 @@ header#cabecalho h2{
     color: #888888;
     font-size: 20pt;
     padding: 0px;
-    margin-top: -10px;
-    margin-left: 40px;    
+    margin-top: 2px;
+    margin-left: 120px;    
+}
+
+img#logo{
+    float: left;
+    margin-top: 5px;
+    margin-left: 30px;
 }
 
 img#cone_mao{
@@ -87,7 +94,7 @@ nav#menu a:hover{
 }
 
 body{
-    background-image: linear-gradient(to left, var(--cor1), var(--cor2));
+    background-color: var(--cor5);
 }
 
 main{
@@ -150,7 +157,7 @@ aside#campos{
 }
 
 aside{
-    background-color: var(--cor3);
+    background-color: var(--cor5);
     padding: 10px;
     border-radius: 10px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
