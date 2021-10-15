@@ -45,12 +45,6 @@ header#cabecalho h2{
     margin-left: 120px;
 }
 
-img#anis{
-    position: absolute;
-    left: 950px;
-    top: 70px;
-}
-
 nav#menu{
     display: block;
 }
@@ -141,6 +135,7 @@ main img{
     max-width: 350px;
     display: block;
     margin: auto;
+    border-radius: 10px;
 }
 
 aside{

@@ -43,14 +43,8 @@ header#cabecalho h2{
 
 img#logo{
     float: left;
-    margin-top: 5px;
+    margin-top: 0px;
     margin-left: 30px;
-}
-
-img#bonecos{
-    position: absolute;
-    left: 950px;
-    top: 100px;
 }
 
 nav#menu{

@@ -18,6 +18,9 @@
 
 body{
     background-image: linear-gradient(to bottom, #F2F285, #FCF18B, #E6D489, #FCDA8B);
+    margin: auto;
+    min-width: 300px;
+    max-width: 1000px;
 }
 
 header#cabecalho{
@@ -46,14 +49,8 @@ header#cabecalho h2{
 
 img#logo{
     float: left;
-    margin-top: 5px;
+    margin-top: 0px;
     margin-left: 30px;
-}
-
-img#tera{
-    position: absolute;
-    left: 950px;
-    top: 70px;
 }
 
 nav#menu{
