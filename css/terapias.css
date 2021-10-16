@@ -18,9 +18,6 @@
 
 body{
     background-image: linear-gradient(to bottom, #F2F285, #FCF18B, #E6D489, #FCDA8B);
-    margin: auto;
-    min-width: 300px;
-    max-width: 1000px;
 }
 
 header#cabecalho{
