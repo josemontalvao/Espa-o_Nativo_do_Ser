@@ -9,6 +9,7 @@
 :root{
     --cor4: #2AB320;
     --cor3: #186612;
+    --cor2: #66C942;
 
     --fonte-padrao: arial, verdana, helvetica, sans-serif;
 }
@@ -92,7 +93,7 @@ main img{
 article#empresa{
     margin-top: 20px;
     margin-bottom: 20px;
-    background-color: var(--cor4);
+    background-color: var(--cor2);
     padding: 10px;
 }
 
@@ -115,7 +116,7 @@ section p{
 }
 
 section#tratamento{
-    background-color: var(--cor4);
+    background-color: var(--cor2);
     padding: 10px;
     margin-top: 70px;
 }

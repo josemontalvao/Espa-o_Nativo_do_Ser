@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'FonteLogo1';
+    src: url("../_fonts/FrederickatheGreat-Regular.ttf");
+}
+@font-face {
+    font-family: 'FonteLogo';
+    src: url("../_fonts/CinzelDecorative-Regular.ttf");
+}
+
+:root{
+    --cor0: #186612;
+    --cor1: #EDABA8;
+    --cor2: #F7B0CA;
+    --cor3: #E1ABDA;
+    --cor4: #E9B0F7;
+    --cor5: #CDA8ED;
+
+    --fonte-padrao: arial, verdana, helvetica, sans-serif;
+}
+
+header#cabecalho{
+    border-bottom: solid 1px #606060;
+    height: 150px;
+}
+
+header#cabecalho h1{
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 25pt;
+    color: var(--cor0);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
+    padding: 0px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+header#cabecalho h2{
+    font-family: 'FonteLogo1';
+    color: #888888;
+    font-size: 20pt;
+    padding: 0px;
+    margin-top: 2px;
+    margin-left: 120px;    
+}
+
+img#logo{
+    float: left;
+    margin-top: 0px;
+    margin-left: 30px;
+}
+
+nav#menu{
+    display: block;
+}
+
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    left: 400px;
+}
+
+nav#menu li{
+    font-size: 7.5pt;
+    display: inline-block;
+    background-color: #dddddd;
+    padding: 10px;
+    margin: 0px;
+    transition: background-color 1s;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+nav#menu li:hover{
+    background-color: #606060;
+}
+
+nav#menu h1{
+    display: none;
+}
+
+nav#menu a{
+    color: #000000;
+    text-decoration: none;
+}
+
+nav#menu a:hover{
+    color: #ffffff;
+}
+
+body{
+    background-color: var(--cor2);
+}
+
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.41);
+    border-radius: 10px;
+}
+
+main h1{
+    color: white;
+    font-family: 'FonteLogo';
+    font-size: 2em;
+    background-image: linear-gradient(to right, var(--cor5), transparent);
+    text-indent: 8px;
+}
+
+main p{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-family: var(--fonte-padrao);
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+img#cone_trat{
+    border-radius: 10px;
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+img#cone_hindu1{
+    border-radius: 10px;
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+main ul{
+    font-family: var(--fonte-padrao);
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+main ol{
+    font-family: var(--fonte-padrao);
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+aside#campos{
+    margin-bottom: 30px;
+}
+
+aside{
+    background-color: var(--cor2);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+footer{
+    clear: both;
+    border-top: 1px solid #606060;
+}
+
+footer p{
+    text-align: center;
+}
