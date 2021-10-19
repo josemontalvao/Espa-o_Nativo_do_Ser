@@ -191,6 +191,18 @@ ul#fotos li#aromaterapia:hover{
     background-size: 200px 200px;
 }
 
+ul#fotos li#barraDeAcces{
+    background: url('../Imagens/acces2.jpeg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+
+ul#fotos li#barraDeAcces:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
 ul#fotos li#coneIndu{
     background: url("../Imagens/cone_hindu.jpg") no-repeat;
     background-position: 50% 50%;
