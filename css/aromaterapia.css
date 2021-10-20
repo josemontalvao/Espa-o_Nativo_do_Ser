@@ -117,7 +117,7 @@ main p a{
 
 main h1{
     font-family: 'FonteLogo1';
-    font-size: 2em;
+    font-size: 2em;    
     text-align: center;
     background-color: var(--cor3);
     padding: 3px;
@@ -132,10 +132,10 @@ main h2{
 }
 
 main img{
+    border-radius: 10px;
     max-width: 350px;
     display: block;
     margin: auto;
-    border-radius: 10px;
 }
 
 aside{
