@@ -9,11 +9,11 @@
 
 :root{
     --cor0: #186612;
-    --cor1: #FCF412;
-    --cor2: #E0C510;
-    --cor3: #F7C51E;
-    --cor4: #E09B10;
-    --cor5: #E6D489;
+    --cor1: #6A88FD;
+    --cor2: #5F9DE3;
+    --cor3: #75D7FA;
+    --cor4: #5FE2E3;
+    --cor5: #6AFDD4;
 
     --fonte-padrao: arial, verdana, helvetica, sans-serif;
 }
@@ -88,7 +88,7 @@ nav#menu a:hover{
 }
 
 body{
-    background-color: var(--cor5);
+    background-color: var(--cor4);
 }
 
 main{
@@ -120,41 +120,11 @@ main p{
     line-height: 1.5em;
 }
 
-img#cone_trat{
+img{
     border-radius: 10px;
     max-width: 350px;
     display: block;
     margin: auto;
-}
-
-img#cone_hindu1{
-    border-radius: 10px;
-    max-width: 350px;
-    display: block;
-    margin: auto;
-}
-
-main ul{
-    font-family: var(--fonte-padrao);
-    font-size: 1em;
-    line-height: 1.5em;
-}
-
-main ol{
-    font-family: var(--fonte-padrao);
-    font-size: 1em;
-    line-height: 1.5em;
-}
-
-aside#campos{
-    margin-bottom: 30px;
-}
-
-aside{
-    background-color: var(--cor5);
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
 }
 
 footer{
@@ -165,3 +135,4 @@ footer{
 footer p{
     text-align: center;
 }
+
