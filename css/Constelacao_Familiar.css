@@ -46,7 +46,7 @@ header#cabecalho h2{
     font-size: 1.2em;
     padding: 0px;
     margin-top: 2px;
-    margin-left: 20px;    
+    margin-left: 20px;
 }
 
 img#logo{
@@ -117,29 +117,27 @@ main p{
     line-height: 1.5em;
 }
 
-article > h1{
+main p a{
+    text-decoration: none
+}
+
+main h1{
     font-family: 'FonteLogo1';
-    font-size: 35pt;
+    font-size: 2em;    
     text-align: center;
     background-color: var(--cor3);
     padding: 3px;
     margin: auto;
 }
 
-article > h2{
+main h2{
     font-family: 'FonteLogo';
-    font-size: 20pt;
-    background-image: linear-gradient(to right, var(--cor3), transparent);
+    font-size: 2em;
+    background-image: linear-gradient(to right, var(--cor4), transparent);
     text-indent: 8px;
 }
 
-ol{
-    font-family: var(--fonte-padrao);
-    font-size: 1em;
-    line-height: 1.5em;
-}
-
-img{
+main img{
     border-radius: 10px;
     max-width: 350px;
     display: block;
@@ -216,12 +214,14 @@ footer p{
         text-align: center;
         padding: 0px;
         display: block;
+        margin-top: 50px;
+        margin-right: 170px;
     }
 
     .menu-section.on nav ul a{
         transition-duration: 0.5s;
         font-size: 7.7pt;
-        line-height: 30px;
+        line-height: 60px;
         display: block;
     }
 }

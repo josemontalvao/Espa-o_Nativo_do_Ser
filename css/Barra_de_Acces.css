@@ -110,10 +110,18 @@ main{
 }
 
 main h1{
-    color: white;
+    font-family: 'FonteLogo1';
+    font-size: 2em;    
+    text-align: center;
+    background-color: var(--cor3);
+    padding: 3px;
+    margin: auto;
+}
+
+main h2{
     font-family: 'FonteLogo';
     font-size: 2em;
-    background-image: linear-gradient(to right, var(--cor5), transparent);
+    background-image: linear-gradient(to right, var(--cor4), transparent);
     text-indent: 8px;
 }
 
@@ -233,12 +241,14 @@ footer p{
         text-align: center;
         padding: 0px;
         display: block;
+        margin-top: 50px;
+        margin-right: 170px;
     }
 
     .menu-section.on nav ul a{
         transition-duration: 0.5s;
         font-size: 7.7pt;
-        line-height: 30px;
+        line-height: 60px;
         display: block;
     }
 }

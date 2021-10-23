@@ -236,12 +236,14 @@ footer p{
         text-align: center;
         padding: 0px;
         display: block;
+        margin-top: 50px;
+        margin-right: 170px;
     }
 
     .menu-section.on nav ul a{
         transition-duration: 0.5s;
         font-size: 7.7pt;
-        line-height: 30px;
+        line-height: 60px;
         display: block;
     }
 }
