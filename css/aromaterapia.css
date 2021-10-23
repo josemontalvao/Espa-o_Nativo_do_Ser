@@ -19,75 +19,81 @@
 
 body{
     background-image: linear-gradient(to left, var(--cor4), var(--cor3), var(--cor2), var(--cor1));
+    height: 100vh;
 }
 
 header#cabecalho{
-    border-bottom: solid 1px #606060;
-    height: 150px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: auto;
 }
 
 header#cabecalho h1{
     font-family: 'FonteLogo', sans-serif;
-    font-size: 25pt;
+    font-size: 2em;
     color: var(--cor0);
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
     padding: 0px;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 0px;
+    margin-left: 5px;
 }
 
 header#cabecalho h2{
     font-family: 'FonteLogo1';
     color: #888888;
-    font-size: 20pt;
+    font-size: 1.2em;
     padding: 0px;
     margin-top: 2px;
-    margin-left: 120px;
+    margin-left: 20px;
 }
 
-nav#menu{
+nav{
     display: block;
 }
 
-nav#menu ul{
+nav ul{
+    display: flex;
     list-style: none;
     text-transform: uppercase;
     position: absolute;
-    top: -20px;
-    left: 400px;
+    top: -10px;
+    right: 30px;
 }
 
-nav#menu li{
-    font-size: 7.5pt;
+nav li{
+    font-size: 7.7pt;
     display: inline-block;
     background-color: #dddddd;
-    padding: 10px;
+    padding: 5px;
     margin: 0px;
     transition: background-color 1s;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+    list-style: none;
 }
 
-nav#menu li:hover{
+nav li:hover{
     background-color: #606060;
 }
 
-nav#menu h1{
+nav h1{
     display: none;
 }
 
-nav#menu a{
+nav a{
     color: #000000;
     text-decoration: none;
 }
 
-nav#menu a:hover{
+nav a:hover{
     color: #ffffff;
 }
 
 img#logo{
     float: left;
     margin-top: 0px;
-    margin-left: 30px;
+    margin-left: 5px;
 }
 
 main{
@@ -167,4 +173,76 @@ footer{
 
 footer p{
     text-align: center;
+}
+
+@media (max-width: 1150px) {
+    nav {
+        display: none;
+    }
+
+    .one,
+    .two,
+    .three {
+        background-color: white;
+        height: 5px;
+        width: 100%;
+        margin: 6px auto;
+
+        transition-duration: 0.3s;
+    }
+
+    .menu-toggle {
+        width: 40px;
+        right: 30px;
+        margin-right: 20px;
+    }
+
+    .menu-section.on{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100vw;
+        height: 100vh;
+        background-color: var(--cor0);
+        z-index: 10;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu-section.on nav{
+        display: block;
+    }
+
+    .menu-section.on .menu-toggle{
+        position: absolute;
+        right: 30px;
+        top: 15px;
+    }
+
+    .menu-section.on .menu-toggle .one{
+        transform: rotate(45deg) translate(7px, 7px);
+    }
+
+    .menu-section.on .menu-toggle .two{
+        opacity: 0;
+    }
+
+    .menu-section.on .menu-toggle .three{
+        transform: rotate(-45deg) translate(8px, -9px);
+    }
+
+    .menu-section.on nav ul{
+        text-align: center;
+        display: block;
+        list-style-type: none;
+    }
+
+    .menu-section.on nav ul a{
+        transition-duration: 0.5s;
+        font-size: 2rem;
+        line-height: 3rem;
+        display: block;
+    }
+
 }
