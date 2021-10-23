@@ -49,6 +49,12 @@ header#cabecalho h2{
     margin-left: 20px;
 }
 
+img#logo{
+    float: left;
+    margin-top: 0px;
+    margin-left: 5px;
+}
+
 nav{
     display: block;
 }
@@ -59,15 +65,15 @@ nav ul{
     text-transform: uppercase;
     position: absolute;
     top: -10px;
-    right: 30px;
+    right: 20px;
 }
 
 nav li{
     font-size: 7.7pt;
-    display: inline-block;
+    display: block;
     background-color: #dddddd;
     padding: 5px;
-    margin: 0px;
+    margin: auto;
     transition: background-color 1s;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
     list-style: none;
@@ -88,12 +94,6 @@ nav a{
 
 nav a:hover{
     color: #ffffff;
-}
-
-img#logo{
-    float: left;
-    margin-top: 0px;
-    margin-left: 5px;
 }
 
 main{
@@ -234,15 +234,14 @@ footer p{
 
     .menu-section.on nav ul{
         text-align: center;
+        padding: 0px;
         display: block;
-        list-style-type: none;
     }
 
     .menu-section.on nav ul a{
         transition-duration: 0.5s;
-        font-size: 2rem;
-        line-height: 3rem;
+        font-size: 7.7pt;
+        line-height: 30px;
         display: block;
     }
-
 }
