@@ -269,6 +269,30 @@ ul#fotos li#radiestesia:hover{
     background-size: 200px 200px;
 }
 
+ul#fotos li#magiaDivina{
+    background: url('../Imagens/magia_divina.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+
+ul#fotos li#magiaDivina:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#fotos li#magiaDaNatureza{
+    background: url('../Imagens/magia_da_natureza.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+
+ul#fotos li#magiaDaNatureza:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
 footer{
     clear: both;
     border-top: 1px solid #606060;

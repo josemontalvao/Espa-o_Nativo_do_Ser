@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'FonteLogo1';
+    src: url("../_fonts/FrederickatheGreat-Regular.ttf");
+}
+@font-face {
+    font-family: 'FonteLogo';
+    src: url("../_fonts/CinzelDecorative-Regular.ttf");
+}
+
+:root{
+    --cor0: #186612;
+    --cor1: #F0CCDC;
+    --cor2: #D8C2D7;
+    --cor3: #E7CCF0;
+    --cor4: #D4C3E6;
+
+    --fonte-padrao: arial, verdana, helvetica, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to left, var(--cor4), var(--cor3), var(--cor2), var(--cor1));
+    height: 100vh;
+}
+
+header#cabecalho{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+
+header#cabecalho h1{
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 2em;
+    color: var(--cor0);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
+    padding: 0px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+}
+
+header#cabecalho h2{
+    font-family: 'FonteLogo1';
+    color: #888888;
+    font-size: 1.2em;
+    padding: 0px;
+    margin-top: 2px;
+    margin-left: 20px;
+}
+
+img#logo{
+    float: left;
+    margin-top: 0px;
+    margin-left: 5px;
+}
+
+nav{
+    display: block;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -10px;
+    right: 20px;
+}
+
+nav li{
+    font-size: 7.7pt;
+    display: block;
+    background-color: #dddddd;
+    padding: 5px;
+    margin: auto;
+    transition: background-color 1s;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+    list-style: none;
+}
+
+nav li:hover{
+    background-color: #606060;
+}
+
+nav h1{
+    display: none;
+}
+
+nav a{
+    color: #000000;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #ffffff;
+}
