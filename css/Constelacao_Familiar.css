@@ -221,7 +221,7 @@ footer p{
     .menu-section.on nav ul a{
         transition-duration: 0.5s;
         font-size: 7.7pt;
-        line-height: 60px;
+        line-height: 40px;
         display: block;
     }
 }
