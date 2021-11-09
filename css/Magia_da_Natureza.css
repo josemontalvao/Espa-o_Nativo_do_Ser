@@ -133,6 +133,13 @@ main p{
     line-height: 1.5em;
 }
 
+main img{
+    border-radius: 10px;
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
 
 
 @media (max-width: 1150px) {
